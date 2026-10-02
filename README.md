@@ -1,44 +1,58 @@
-# Prismate — Enhancer & Air-Presence EQ
+# Prismate: Enhancer & Air-Presence EQ
 
-![Prismate](https://raw.githubusercontent.com/RemiBlaze/Prismate/main/prismate-ui-screenshot.png)
+![Prismate free enhancer & air-presence EQ UI](https://raw.githubusercontent.com/RemiBlaze/Prismate/main/prismate-ui-screenshot.png)
 
 **Sculpt clarity, air, and presence with a clean, visual three-band EQ.**
 
 Prismate is a mixing and enhancement EQ built around a low shelf, a parametric mid bell, and a high shelf, framed by musical low-cut and high-cut filters and a live spectrum analyzer. Push presence and air where a track needs it, then let Auto-Gain keep your levels honest for a fair A/B.
 
-Fully **signed and notarized** for macOS as **AU, VST3, and Standalone**.
+**macOS** (Apple Silicon and Intel): AU, VST3, CLAP, AAX, Standalone. Signed and notarized by Apple.
+
+**Windows** 10 and 11, 64-bit: VST3, CLAP, Standalone. Authenticode signed.
+
+AAX ships on macOS only.
 
 ---
 
 ## 🚀 Download & Install
-1. Go to the [latest release](https://github.com/RemiBlaze/Prismate/releases/latest).
-2. Download **`Prismate_Installer.pkg`**.
-3. Double-click it and follow the installer. Because it's **signed & notarized by Apple**, it installs cleanly — no security warnings, no right-click, no "Open Anyway."
-4. Restart your DAW and rescan plug-ins.
+
+Go to the [latest release](https://github.com/RemiBlaze/Prismate/releases/latest) and pick your platform.
+
+**macOS**
+1. Download **`Prismate_Installer.pkg`**.
+2. Double-click it and follow the installer. It is signed and notarized by Apple, so it installs cleanly with no security warnings.
+3. Restart your DAW and rescan plug-ins. Prismate appears under **Remi Blaze**.
+
+**Windows 10 and 11, 64-bit**
+1. Download **`Prismate_Installer.exe`**.
+2. Run it and follow the installer. It is Authenticode signed.
+3. Restart your DAW and rescan plug-ins. Prismate appears under **Remi Blaze**.
+
+No dongle and no extra account on either platform.
 
 Full guide: **[remiblaze.com/support](https://remiblaze.com/support/)**.
 
 ---
 
 ## 🎛️ Features
-- **Low Shelf** — Gain (±24 dB) and frequency (20–500 Hz) for weight and warmth.
-- **Parametric Mid Bell** — Gain (±24 dB), frequency (200 Hz–8 kHz), and Q (0.1–10) for surgical or broad midrange moves.
-- **High Shelf** — Gain (±24 dB) and frequency (2–20 kHz) for presence and air.
-- **Low Cut** — Sweepable high-pass (20 Hz–1 kHz) with an enable toggle and selectable slope: **12, 24, or 48 dB/oct**.
-- **High Cut** — Sweepable low-pass (1–20 kHz) with an enable toggle.
-- **Per-Band Bypass** — Toggle the low, mid, and high bands independently.
-- **Band Solo** — Isolate the Low, Mid, or High band to hear exactly what you're shaping.
-- **Q-Link** — Automatically tightens the mid Q as you push its gain for a more musical bell.
-- **Natural Phase** — Engages 2× oversampled processing for cleaner high-frequency behaviour.
-- **Output** — Level trim from −24 dB to +6 dB.
-- **Auto-Gain** — RMS-matched level compensation for honest before/after comparison.
-- **Bypass** — Instant A/B of the whole plug-in in one click.
-- **A/B Slots** — Store two settings and toggle between them.
-- **Real-Time Spectrum Analyzer** — 2048-point FFT with a live EQ response curve, refreshing at 30 Hz.
-- **Randomize** — One click to explore new EQ shapes.
-- **Tooltips** — Hover any control for a description.
-- **Double-Click Reset** — Double-click a knob to return it to its default.
-- **Resizable UI** — Scales from 500×400 up to 900×750.
+- **Low Shelf**: Gain (±24 dB) and frequency (20–500 Hz) for weight and warmth.
+- **Parametric Mid Bell**: Gain (±24 dB), frequency (200 Hz–8 kHz), and Q (0.1–10) for surgical or broad midrange moves.
+- **High Shelf**: Gain (±24 dB) and frequency (2–20 kHz) for presence and air.
+- **Low Cut**: Sweepable high-pass (20 Hz–1 kHz) with an enable toggle and selectable slope: **12, 24, or 48 dB/oct**.
+- **High Cut**: Sweepable low-pass (1–20 kHz) with an enable toggle.
+- **Per-Band Bypass**: Toggle the low, mid, and high bands independently.
+- **Band Solo**: Isolate the Low, Mid, or High band to hear exactly what you're shaping.
+- **Q-Link**: Automatically tightens the mid Q as you push its gain for a more musical bell.
+- **Natural Phase**: Engages 2× oversampled processing for cleaner high-frequency behaviour.
+- **Output**: Level trim from −24 dB to +6 dB.
+- **Auto-Gain**: RMS-matched level compensation for honest before/after comparison.
+- **Bypass**: Instant A/B of the whole plug-in in one click.
+- **A/B Slots**: Store two settings and toggle between them.
+- **Real-Time Spectrum Analyzer**: 2048-point FFT with a live EQ response curve, refreshing at 30 Hz.
+- **Randomize**: One click to explore new EQ shapes.
+- **Tooltips**: Hover any control for a description.
+- **Double-Click Reset**: Double-click a knob to return it to its default.
+- **Resizable UI**: Scales from 500×400 up to 900×750.
 
 ---
 
@@ -50,14 +64,20 @@ Full guide: **[remiblaze.com/support](https://remiblaze.com/support/)**.
 - **5 Hz DC blocker** to keep the low end clean.
 - **tanh soft clipper** near full scale as an output safety ceiling.
 - **Delay-compensated bypass** so track alignment stays correct when the plug-in is bypassed.
-- **Universal Binary** — native on Apple Silicon and Intel.
+- **Universal Binary**: native on Apple Silicon and Intel.
 
 ---
 
 ## 💻 System Requirements
+
+**macOS**
 - macOS 15.0 or later
 - Apple Silicon or Intel Mac (Universal Binary)
-- Any AU or VST3 host (your DAW of choice)
+- An AU, VST3, CLAP or AAX host
+
+**Windows**
+- Windows 10 or Windows 11, 64-bit
+- A VST3 or CLAP host
 
 ---
 
@@ -84,11 +104,12 @@ Full guide: **[remiblaze.com/support](https://remiblaze.com/support/)**.
 ---
 
 ## 🐛 Bugs & Issues
-Open an issue on the **[Issues](https://github.com/RemiBlaze/Prismate/issues)** tab with your macOS version, DAW + version, and steps to reproduce.
+Open an issue on the **[Issues](https://github.com/RemiBlaze/Prismate/issues)** tab with your macOS or Windows version, DAW + version, and steps to reproduce.
 
 ---
 
 ## 📄 License & Credits
+- **Plugin page:** [remiblaze.com/plugins/prismate/](https://remiblaze.com/plugins/prismate/).
 - **Developer:** [Remi Blaze](https://remiblaze.com).
 - **Framework:** [JUCE](https://juce.com).
 - **License:** free under a proprietary [Freeware License](LICENSE) (see also our [terms](https://remiblaze.com/terms/)). Reverse-engineering, repackaging, binary redistribution, or reselling the compiled installer is strictly prohibited.
@@ -102,3 +123,7 @@ All product names, company names, and logos mentioned herein are trademarks or r
 VST is a trademark of Steinberg Media Technologies GmbH, registered in Europe and other countries.
 
 Apple, macOS, Audio Units (AU), and Apple Silicon are trademarks of Apple Inc., registered in the U.S. and other countries.
+
+AAX, Avid, and Pro Tools are trademarks or registered trademarks of Avid Technology, Inc. in the U.S. and other countries.
+
+Microsoft and Windows are trademarks of the Microsoft group of companies.
